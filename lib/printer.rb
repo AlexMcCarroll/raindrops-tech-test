@@ -1,10 +1,13 @@
-require_relative 'input.rb'
 require_relative 'calculator.rb'
 
 class Printer
 
-  def print_answer
-
+  def initialize(calculator = Calculator.new)
+    @calculator = calculator
   end
-  
+
+  def print_answer
+    print @calculator.answer
+  end
+
 end

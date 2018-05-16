@@ -1,11 +1,14 @@
-require 'input'
+require 'printer'
 
-describe Input do
-  subject(:input) { Input.new }
+describe Printer do
+  subject(:printer) { Printer.new }
 
-  describe 'get a number' do
-    it 'get_number function outputs to stdout' do
-      expect { input.get_number }.to output('Input any number: ').to_stdout
+  let(:dummy_calculator_pling_plang) { double :calculator, answer: 'PlingPlang' }
+
+  describe '#print' do
+    it 'prints the answer to stout' do
+      dummy_calculator_pling_plang.answer
+      expect { printer.print_answer }.to output('PlingPlang').to_stdout
     end
   end
 end

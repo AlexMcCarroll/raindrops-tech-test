@@ -3,13 +3,11 @@ class Input
   attr_accessor :number
 
   def initialize
-    @number = number
+    @number = 0
   end
 
-  def get_number
-    print 'Input any number: '
-    input = gets.chomp
-    @number = input.to_i
+  def input_number(num)
+    @number = num
   end
 
 end

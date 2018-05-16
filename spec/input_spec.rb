@@ -1,13 +1,12 @@
-require 'printer'
+require 'input'
 
-describe Printer do
-  subject(:printer) { Printer.new }
+describe Input do
+  subject(:input) { Input.new }
 
-  let(:dummy_input_pling_plang) { double :input, number: 15 }
-
-  describe '#print' do
-    it 'prints the answer to stout' do
-      expect { printer.print_answer }.to output('PlingPlang').to_stdout
+  describe '#input' do
+    it 'number is input by user' do
+      input.input_number(10)
+      expect(input.number).to be(10)
     end
   end
 end

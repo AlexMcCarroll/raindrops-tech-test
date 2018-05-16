@@ -18,10 +18,6 @@ Examples:
 
 ![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/raindrops.png)
 
-## Test Coverage:
-
-![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/test_coverage.png)
-
 ## Instructions:
 
 - Make a new directory and `git clone https://github.com/AlexMcCarroll/raindrops-tech-test.git`
@@ -48,3 +44,7 @@ Plang => []
 > printer.print_answer(19)
 19 => []
 ```
+
+## Test Coverage:
+
+![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/test_coverage.png)

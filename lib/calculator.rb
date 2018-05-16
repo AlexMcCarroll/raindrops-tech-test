@@ -21,9 +21,12 @@ class Calculator
     @ans << 'Pling' if @factors.include?(3)
     @ans << 'Plang' if @factors.include?(5)
     @ans << 'Plong' if @factors.include?(7)
+    @ans << @input.number if @ans.empty?
   end
 
   def answer
     @ans
   end
+
+  private
 end

@@ -8,14 +8,14 @@ describe Calculator do
   let(:dummy_input_plang) { double :input, number: 10 }
   let(:dummy_input_plong) { double :input, number: 14 }
 
-  describe 'gathers the factors of a number and puts them in an array' do
+  describe '#factorise' do
     it 'determines factors of a number' do
       calculator.factorise(dummy_input.number)
       expect(calculator.factors).to include(1, 2)
     end
   end
 
-  describe 'determines whether a number has factors 3 (pling)' do
+  describe '#Pling' do
     it 'determines factors includes 3' do
       calculator.factorise(dummy_input_pling.number)
       calculator.conversion
@@ -28,7 +28,7 @@ describe Calculator do
     end
   end
 
-  describe 'determines whether a number has factors 5 (plang)' do
+  describe '#Plang' do
     it 'determines factors includes 5' do
       calculator.factorise(dummy_input_plang.number)
       calculator.conversion
@@ -41,7 +41,7 @@ describe Calculator do
     end
   end
 
-  describe 'determines whether a number has factors 7 (plong)' do
+  describe '#Plong' do
     it 'determines factors includes 7' do
       calculator.factorise(dummy_input_plong.number)
       calculator.conversion

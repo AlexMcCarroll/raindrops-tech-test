@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-05-16T19:36:28+01:00">2018-05-16T19:36:28+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-05-16T22:57:47+01:00">2018-05-16T22:57:47+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.52
+         2.7
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>6</b> files in total.
-    <b>83</b> relevant lines. 
-    <span class="green"><b>83</b> lines covered</span> and
+    <b>88</b> relevant lines. 
+    <span class="green"><b>88</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -53,31 +53,31 @@
       <tr>
         <td class="strong"><a href="#e168fe91a5bfcf4e931f476c2dde2c7bd337e318" class="src_link" title="lib/calculator.rb">lib/calculator.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>32</td>
-        <td>18</td>
-        <td>18</td>
+        <td>29</td>
+        <td>17</td>
+        <td>17</td>
         <td>0</td>
-        <td>6.5</td>
+        <td>8.0</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#0b0987f8ab8c85676c511bc0fc427768c733d1c5" class="src_link" title="lib/input.rb">lib/input.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>13</td>
+        <td>12</td>
         <td>6</td>
         <td>6</td>
         <td>0</td>
-        <td>2.3</td>
+        <td>2.7</td>
       </tr>
       
       <tr>
         <td class="strong"><a href="#c03a81292455ae43a759d6a3332078db4746d76a" class="src_link" title="lib/printer.rb">lib/printer.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>21</td>
         <td>13</td>
-        <td>6</td>
-        <td>6</td>
+        <td>13</td>
         <td>0</td>
-        <td>1.0</td>
+        <td>1.2</td>
       </tr>
       
       <tr>
@@ -103,11 +103,11 @@
       <tr>
         <td class="strong"><a href="#e6f9cff7130f5091f8757a198709f5b97ba306b1" class="src_link" title="spec/printer_spec.rb">spec/printer_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>14</td>
-        <td>8</td>
-        <td>8</td>
+        <td>13</td>
+        <td>7</td>
+        <td>7</td>
         <td>0</td>
-        <td>1.4</td>
+        <td>1.3</td>
       </tr>
       
     </tbody>
@@ -131,8 +131,8 @@
     <h3>lib/calculator.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>18</b> relevant lines. 
-      <span class="green"><b>18</b> lines covered</span> and
+      <b>17</b> relevant lines. 
+      <span class="green"><b>17</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -167,166 +167,148 @@
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
+          <code class="ruby">  attr_reader :factors</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
           <code class="ruby">  def initialize(input = Input.new)</code>
-        </li>
-      
-        <li class="covered" data-hits="8" data-linenumber="6">
-          <span class="hits">8</span>
-          
-          <code class="ruby">    @input = input</code>
-        </li>
-      
-        <li class="covered" data-hits="8" data-linenumber="7">
-          <span class="hits">8</span>
-          
-          <code class="ruby">    @factors = []</code>
         </li>
       
         <li class="covered" data-hits="8" data-linenumber="8">
           <span class="hits">8</span>
           
+          <code class="ruby">    @input = input</code>
+        </li>
+      
+        <li class="covered" data-hits="8" data-linenumber="9">
+          <span class="hits">8</span>
+          
+          <code class="ruby">    @factors = []</code>
+        </li>
+      
+        <li class="covered" data-hits="8" data-linenumber="10">
+          <span class="hits">8</span>
+          
           <code class="ruby">    @ans = []</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="13">
           <span class="hits">1</span>
           
-          <code class="ruby">  def factorise(number)</code>
+          <code class="ruby">  def factorise(num)</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="12">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="8" data-linenumber="14">
+          <span class="hits">8</span>
           
-          <code class="ruby">    @input = number</code>
+          <code class="ruby">    @input.number = num</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="13">
-          <span class="hits">7</span>
+        <li class="covered" data-hits="8" data-linenumber="15">
+          <span class="hits">8</span>
           
-          <code class="ruby">    1.upto(number).each do |i|</code>
+          <code class="ruby">    1.upto(num).each do |i|</code>
         </li>
       
-        <li class="covered" data-hits="46" data-linenumber="14">
-          <span class="hits">46</span>
+        <li class="covered" data-hits="61" data-linenumber="16">
+          <span class="hits">61</span>
           
-          <code class="ruby">      @factors.push(i) if number % i == 0</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby">  end</code>
+          <code class="ruby">      @factors.push(i) if num % i == 0</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="17">
           
           
+          <code class="ruby">    end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="18">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="19">
+          
+          
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="18">
+        <li class="covered" data-hits="1" data-linenumber="20">
           <span class="hits">1</span>
           
           <code class="ruby">  def conversion</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="19">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="7" data-linenumber="21">
+          <span class="hits">7</span>
           
           <code class="ruby">    @ans &lt;&lt; &#39;Pling&#39; if @factors.include?(3)</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="20">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="7" data-linenumber="22">
+          <span class="hits">7</span>
           
           <code class="ruby">    @ans &lt;&lt; &#39;Plang&#39; if @factors.include?(5)</code>
         </li>
       
-        <li class="covered" data-hits="6" data-linenumber="21">
-          <span class="hits">6</span>
+        <li class="covered" data-hits="7" data-linenumber="23">
+          <span class="hits">7</span>
           
           <code class="ruby">    @ans &lt;&lt; &#39;Plong&#39; if @factors.include?(7)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="never" data-hits="" data-linenumber="24">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="23">
+        <li class="never" data-hits="" data-linenumber="25">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="24">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def factors</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="25">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    @factors</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="26">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="27">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="28">
+        <li class="covered" data-hits="1" data-linenumber="26">
           <span class="hits">1</span>
           
           <code class="ruby">  def answer</code>
         </li>
       
-        <li class="covered" data-hits="7" data-linenumber="29">
+        <li class="covered" data-hits="7" data-linenumber="27">
           <span class="hits">7</span>
           
           <code class="ruby">    @ans</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="30">
+        <li class="never" data-hits="" data-linenumber="28">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="31">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="32">
+        <li class="never" data-hits="" data-linenumber="29">
           
           
           <code class="ruby">end</code>
@@ -381,10 +363,10 @@
           <code class="ruby">  def initialize</code>
         </li>
       
-        <li class="covered" data-hits="9" data-linenumber="6">
-          <span class="hits">9</span>
+        <li class="covered" data-hits="10" data-linenumber="6">
+          <span class="hits">10</span>
           
-          <code class="ruby">    @number = 0</code>
+          <code class="ruby">    @number = nil</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -405,8 +387,8 @@
           <code class="ruby">  def input_number(num)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="10">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="10">
+          <span class="hits">2</span>
           
           <code class="ruby">    @number = num</code>
         </li>
@@ -418,12 +400,6 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="13">
           
           
           <code class="ruby">end</code>
@@ -439,8 +415,8 @@
     <h3>lib/printer.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>6</b> relevant lines. 
-      <span class="green"><b>6</b> lines covered</span> and
+      <b>13</b> relevant lines. 
+      <span class="green"><b>13</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -454,73 +430,121 @@
           <code class="ruby">require_relative &#39;calculator.rb&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="2">
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">require_relative &#39;input.rb&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="3">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="3">
+        <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
           <code class="ruby">class Printer</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="never" data-hits="" data-linenumber="5">
           
           
           <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  def initialize(calculator = Calculator.new)</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
+          <code class="ruby">  def initialize(calculator = Calculator.new, input = Input.new)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="7">
+          <span class="hits">1</span>
+          
           <code class="ruby">    @calculator = calculator</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="7">
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @input = input</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="10">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="9">
+        <li class="covered" data-hits="1" data-linenumber="11">
           <span class="hits">1</span>
           
-          <code class="ruby">  def print_answer</code>
+          <code class="ruby">  def formatter</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="10">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="3" data-linenumber="12">
+          <span class="hits">3</span>
           
-          <code class="ruby">    print @calculator.answer</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="12">
-          
-          
-          <code class="ruby"></code>
+          <code class="ruby">    @calculator.answer.each { |x| print x }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="14">
+          
+          
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  def print_answer(num)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="16">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @input.input_number(num)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @calculator.factorise(num)</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    @calculator.conversion</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    self.formatter</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="20">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="21">
           
           
           <code class="ruby">end</code>
@@ -608,7 +632,7 @@
         <li class="covered" data-hits="1" data-linenumber="11">
           <span class="hits">1</span>
           
-          <code class="ruby">  describe &#39;gathers the factors of a number and puts them in an array&#39; do</code>
+          <code class="ruby">  describe &#39;#factorise&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="12">
@@ -650,7 +674,7 @@
         <li class="covered" data-hits="1" data-linenumber="18">
           <span class="hits">1</span>
           
-          <code class="ruby">  describe &#39;determines whether a number has factors 3 (pling)&#39; do</code>
+          <code class="ruby">  describe &#39;#Pling&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="19">
@@ -728,7 +752,7 @@
         <li class="covered" data-hits="1" data-linenumber="31">
           <span class="hits">1</span>
           
-          <code class="ruby">  describe &#39;determines whether a number has factors 5 (plang)&#39; do</code>
+          <code class="ruby">  describe &#39;#Plang&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="32">
@@ -806,7 +830,7 @@
         <li class="covered" data-hits="1" data-linenumber="44">
           <span class="hits">1</span>
           
-          <code class="ruby">  describe &#39;determines whether a number has factors 7 (plong)&#39; do</code>
+          <code class="ruby">  describe &#39;#Plong&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="45">
@@ -982,8 +1006,8 @@
     <h3>spec/printer_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>8</b> relevant lines. 
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -1021,10 +1045,10 @@
           <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
           
-          <code class="ruby">  let(:dummy_calculator_pling_plang) { double :calculator, answer: &#39;PlingPlang&#39; }</code>
+          <code class="ruby">  let(:dummy_calculator) { double :calculator, answer: [&quot;Pling&quot;, &quot;Plang&quot;] }</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
@@ -1045,31 +1069,25 @@
           <code class="ruby">    it &#39;prints the answer to stout&#39; do</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="10">
-          <span class="hits">1</span>
-          
-          <code class="ruby">      dummy_calculator_pling_plang.answer</code>
-        </li>
-      
-        <li class="covered" data-hits="2" data-linenumber="11">
+        <li class="covered" data-hits="2" data-linenumber="10">
           <span class="hits">2</span>
           
-          <code class="ruby">      expect { printer.print_answer }.to output(&#39;PlingPlang&#39;).to_stdout</code>
+          <code class="ruby">      expect { printer.print_answer(15) }.to output(&#39;PlingPlang&#39;).to_stdout</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="12">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="never" data-hits="" data-linenumber="13">
           
           
           <code class="ruby">end</code>

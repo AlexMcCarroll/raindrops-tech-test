@@ -1,7 +1,48 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/alexmccarroll/TechTests/Deloitte/raindrops-tech-test/spec/factor_calculator_spec.rb": [
+
+      ],
+      "/Users/alexmccarroll/TechTests/Deloitte/raindrops-tech-test/spec/input_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/alexmccarroll/TechTests/Deloitte/raindrops-tech-test/lib/input.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/alexmccarroll/TechTests/Deloitte/raindrops-tech-test/spec/printer_spec.rb": [
+
+      ],
+      "/Users/alexmccarroll/TechTests/Deloitte/raindrops-tech-test/spec/raindrops_spec.rb": [
+
+      ]
     },
-    "timestamp": 1526464514
+    "timestamp": 1526467765
   }
 }

@@ -14,13 +14,11 @@ class Printer
 
   def reset
     @calculator.answer.clear
-    @calculator.factors.clear
   end
 
   def print_answer(num)
     @input.input_number(num)
-    @calculator.factorise(num)
-    @calculator.conversion
+    @calculator.conversion(num)
     self.formatter
     self.reset
   end

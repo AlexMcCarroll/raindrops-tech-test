@@ -9,7 +9,6 @@ describe Calculator do
     it 'determines factors of a number' do
       calculator.factorise(dummy_input.number)
       expect(calculator.factors).to include(1, 2, 5)
-
     end
   end
 end

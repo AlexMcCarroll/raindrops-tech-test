@@ -2,8 +2,6 @@ require_relative 'input.rb'
 
 class Calculator
 
-  attr_reader :factors
-
   def initialize(input = Input.new)
     @input = input
     @factors = []
@@ -28,5 +26,8 @@ class Calculator
     @ans
   end
 
-  private
+  def factors
+    @factors
+  end
+
 end

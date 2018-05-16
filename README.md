@@ -16,7 +16,7 @@ Examples:
 
 ## Domain Model:
 
-![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/raindrops.png)
+![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/diagram.png)
 
 ## Instructions:
 

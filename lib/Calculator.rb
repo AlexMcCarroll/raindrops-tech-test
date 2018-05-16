@@ -24,8 +24,9 @@ class Calculator
   def factors
     @factors
   end
-  
+
   def answer
     @answer
   end
+
 end

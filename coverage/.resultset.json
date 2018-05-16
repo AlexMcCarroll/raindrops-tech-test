@@ -90,6 +90,7 @@
         1,
         6,
         null,
+        null,
         null
       ],
       "/Users/alexmccarroll/TechTests/Deloitte/raindrops-tech-test/lib/input.rb": [
@@ -116,16 +117,40 @@
         2,
         null,
         1,
+        null,
+        1,
         1,
         2,
         null,
         null,
         null
       ],
+      "/Users/alexmccarroll/TechTests/Deloitte/raindrops-tech-test/lib/printer.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/alexmccarroll/TechTests/Deloitte/raindrops-tech-test/spec/printer_spec.rb": [
-
+        1,
+        null,
+        1,
+        2,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1526491555
+    "timestamp": 1526492059
   }
 }

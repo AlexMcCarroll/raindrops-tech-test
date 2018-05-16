@@ -1,6 +1,6 @@
-# Raindrops Tech Test
-
 [![Maintainability](https://api.codeclimate.com/v1/badges/1d5216502414ddd0e1f4/maintainability)](https://codeclimate.com/github/AlexMcCarroll/raindrops-tech-test/maintainability)
+
+# Raindrops Tech Test
 
 This is a simple command-line tool written in Ruby which takes as its input a number (x) and converts it to a string, the contents of which depend on the numbers factors:
 

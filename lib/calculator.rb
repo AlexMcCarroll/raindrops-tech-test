@@ -1,3 +1,5 @@
+require_relative 'printer.rb'
+
 class Calculator
 
   def initialize

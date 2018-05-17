@@ -29,10 +29,10 @@ Examples:
 ## Instructions:
 
 - Make a new directory and `git clone https://github.com/AlexMcCarroll/raindrops-tech-test.git`
+- Run `bundle install`
 - Run a Ruby REPL such as `irb` and type the following:
-- `require_relative ./lib/printer.rb`
-- `require_relative ./lib/input.rb`
-- `require_relative ./lib/calculator.rb`
+- `require_relative './lib/printer.rb'`
+- `require_relative './lib/calculator.rb'`
 - `printer = Printer.new`
 - `printer.print_answer(x)` (x being the number you want to input)
 
@@ -40,19 +40,22 @@ Examples:
 ## Example output:
 ```
 $ irb
-> require_relative ./lib/printer.rb
-> require_relative ./lib/input.rb
-> require_relative ./lib/calculator.rb
+> require_relative './lib/printer.rb'
+> require_relative './lib/calculator.rb'
 > printer = Printer.new
- => #<Printer:0x00007ff5c09b1a00 @calculator=#<Calculator:0x00007ff5c09b19d8 @input=#<Input:0x00007ff5c09b19b0 @number=nil>, @factors=[], @ans=[]>, @input=#<Input:0x00007ff5c09b18c0 @number=nil>>
-> printer.print_answer(15)
-PlingPlang => []
+ => #<Printer:0x00007faae11a36f8 @calculator=#<Calculator:0x00007faae11a36d0 @ans=[]>>
 > printer.print_answer(5)
-Plang => []
+ Plang => []
 > printer.print_answer(19)
-19 => []
+ 19 => []
+> printer.print_answer(315)
+ PlingPlangPlong => []
 ```
 
 ## Test Coverage:
 
+SimpleCov:
 ![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/test_coverage.png)
+
+RSpec:
+![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/tests.png)

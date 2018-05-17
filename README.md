@@ -18,6 +18,14 @@ Examples:
 
 ![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/diagram.png)
 
+## Logic:
+
+- The number (x) to be converted is entered into the terminal via the `print_answer` method located in the printer class. This class is responsible for what is input and output in the terminal.
+- The number (x) is then handled by the calculator class which is responsible for determining whether or not the number is divisible by 3, 5, or 7. This logic is handled by the `conversion` method. Once the answer has been converted, it is passed back to the printer class and is formatted and then output to the terminal.
+- Other methods include the `reset` method which is responsible for clearing the array so many numbers can be tested within the same instance of the print object.
+
+*N.B. Following SRP, I started this project with 4 classes, however I later found that having only 2 was cleaner and required a more simple model to achieve the same goal.*
+
 ## Instructions:
 
 - Make a new directory and `git clone https://github.com/AlexMcCarroll/raindrops-tech-test.git`

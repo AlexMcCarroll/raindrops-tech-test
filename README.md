@@ -52,10 +52,7 @@ $ irb
  PlingPlangPlong => []
 ```
 
-## Test Coverage:
-
-SimpleCov:
-![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/test_coverage.png)
+## Test Suite:
 
 RSpec:
 ![alt-text](https://github.com/AlexMcCarroll/raindrops-tech-test/blob/master/tests.png)
